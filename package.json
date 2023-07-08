@@ -1,14 +1,20 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
-		"express": "^4.14.0"
+	  "package-name": "version",
+	  "express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+	  "start": "node server.js"
 	},
 	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
-}
+	  "type": "git",
+	  "url": "https://idontknow/todo.git"
+	},
+	"license": "MIT",
+	"author": "Vincenzo Rosciano",
+	"description": "A project that does something awesome",
+	"keywords": ["descriptive", "related", "words", "freecodecamp"],
+	"version": "0.0.1"
+  }
